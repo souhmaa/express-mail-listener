@@ -3,8 +3,6 @@
     'use strict';
 
     var path = require('path');
-    var _ = require('underscore');
-    var fileUtils = require('../utils/file-utils');
 
     var conf = {
         DATA: 'data',
