@@ -7,14 +7,20 @@
     var path = require('path');
     var fs = require('fs');
 
+    function createFolderPath(folder) {
+        mkdirp.sync(folder);
+        logger.info('folder ', folder, ' is created');
+    }
+
     module.exports = {
 
-        createFolderPath: function (folder) {
-            mkdirp.sync(folder);
-            logger.info('folder ', folder, ' is created');
-        },
+        createFolderPath: createFolderPath,
 
         moveFile: function (originFile, newFileName, destination) {
+            if (!fs.existsSync()) {
+                createFolderPath(destination);
+            }
+
             var newFile = path.join(destination, newFileName);
             fs.rename(originFile, newFile, function (err) {
                 if (err) {

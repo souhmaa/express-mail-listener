@@ -30,14 +30,7 @@
         PURCHASE: purchase(),
         OTHERS: others()
     }
-
-    function init() {
-        fileUtils.createFolderPath(directories.SALE);
-        fileUtils.createFolderPath(directories.PURCHASE);
-        fileUtils.createFolderPath(directories.OTHERS);
-        module.exports = directories;
-    }
-
-    init();
+    
+    module.exports = directories;
 
 })();
