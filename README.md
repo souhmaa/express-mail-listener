@@ -1,4 +1,4 @@
-# express-mail-listener
+# mail-listener
 
 1. Ouvrir le fichier config/mail-config.js
 
