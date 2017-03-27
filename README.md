@@ -17,8 +17,8 @@
 6. L'application est en écoute de l'adresse mail configurée.
 
 7. Envoyer un mail à l'adresse configurée, le mail doit respecter les détails suivants:
-    * SUBJECT: SALE ou PURCHASE ou OTHERS,
-    * BODY: Dans le corps de l'email, insérer les metadata à uploader avec le document,
+    * Subject: SALE ou PURCHASE ou OTHERS,
+    * Body: Dans le corps de l'email, insérer les metadata à uploader avec le document,
     * Le format des metadata est le suivant:
         * **metadata:clé:valeur**
     * Attachez un document à votre mail.
