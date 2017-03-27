@@ -3,7 +3,7 @@
 1. Ouvrir le fichier config/mail-config.js
 
 2. Editer les entrées suivantes:
-    * **username: Your mail address**,
+    * **username: Your email address**,
     * **password: Your email password**.
 
 3. Ouvrir le fichier suivant config/aws-config.js
