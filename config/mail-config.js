@@ -3,8 +3,8 @@
     'use strict';
 
     module.exports = {
-        username: "your gmail",
-        password: "gmail password",
+        username: "email.address@localhost",
+        password: "mail_password",
         host: "imap.gmail.com",
         port: 993,
         tls: true,
@@ -13,6 +13,7 @@
         markSeen: true,
         fetchUnreadOnStart: true,
         debug: console.log,
+        mailParserOptions: {streamAttachments: true},
         attachments: true
     }
 
